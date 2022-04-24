@@ -49,10 +49,10 @@ $(document).ready(function(){
     if(cnt_01 == 9){
       cnt_01 = 0;
       cnt_1++;
-      if(cnt_1 == 10){
+      if(cnt_1 == 60){
         cnt_1 = 0;
         cnt_10++;
-        if(cnt_10 == 10){
+        if(cnt_10 == 60){
           cnt_10 = 0;
           cnt_100++;
         }
